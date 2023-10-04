@@ -1,4 +1,4 @@
-package entities;
+package entities.es1;
 
 public class Rectangles {
     private int height;

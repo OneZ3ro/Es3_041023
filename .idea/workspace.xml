@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bec70bfb-4f70-460f-b1e4-2cd918f71d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SecondExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/Calls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/Sim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThirdExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/es3/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/es3/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/es3/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Calls.java" beforeDir="false" afterPath="$PROJECT_DIR$/entities/es2/Calls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Rectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/entities/es1/Rectangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Sim.java" beforeDir="false" afterPath="$PROJECT_DIR$/entities/es2/Sim.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

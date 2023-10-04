@@ -1,5 +1,5 @@
-import entities.Calls;
-import entities.Sim;
+import entities.es2.Calls;
+import entities.es2.Sim;
 
 import java.util.Scanner;
 

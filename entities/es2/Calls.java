@@ -1,4 +1,4 @@
-package entities;
+package entities.es2;
 
 public class Calls {
     private int duration;

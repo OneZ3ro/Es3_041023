@@ -1,4 +1,4 @@
-import entities.Rectangles;
+import entities.es1.Rectangles;
 
 import java.util.Scanner;
 
