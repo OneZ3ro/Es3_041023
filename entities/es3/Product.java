@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class Product {
     private int codeProduct;
-    private String description;
-    private double price;
-    private int available;
+    public String description;
+    public double price;
+    public int available;
 
     public Product(String description, double price, int available){
         Random rndm = new Random();

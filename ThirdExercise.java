@@ -32,7 +32,8 @@ public class ThirdExercise {
         System.out.println("Your cart:");
         System.out.println("Your codeUser: " + carrello.getCartCodeUser());
         for (int i = 0; i < carrello.getProductsArr().length; i++) {
-            System.out.println("Your item: " + carrello.getProductsArr()[i]);
+            System.out.println("Your item " + i + " : " + carrello.getProductsArr()[i].description + ", " + carrello.getProductsArr()[i].price + "$, " + carrello.getProductsArr()[i].available + " products available");
+
         }
 
 
