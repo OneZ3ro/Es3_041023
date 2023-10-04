@@ -1,9 +1,7 @@
 import entities.es3.Cart;
 import entities.es3.Product;
 import entities.es3.User;
-
 import java.util.Scanner;
-
 public class ThirdExercise {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -24,18 +22,23 @@ public class ThirdExercise {
 
         User user1 = new User(name, surname, email);
 
-
         Cart carrello = new Cart();
         carrello.setCartCodeUser(user1.getCodeUser());
         carrello.setProducts(partialCart);
 
-        System.out.println("Your cart:");
+        System.out.println("---------------------------- Your cart ----------------------------");
         System.out.println("Your codeUser: " + carrello.getCartCodeUser());
         for (int i = 0; i < carrello.getProductsArr().length; i++) {
             System.out.println("Your item " + i + " : " + carrello.getProductsArr()[i].description + ", " + carrello.getProductsArr()[i].price + "$, " + carrello.getProductsArr()[i].available + " products available");
+        }
+        double tot = 0.0;
+        for (int i = 0; i < carrello.getProductsArr().length; i++) {
+            tot += carrello.getProductsArr()[i].price;
+            if (i == carrello.getProductsArr().length - 1) {
+                System.out.println("Total: " + tot);
+            }
 
         }
-
 
         input.close();
     }
